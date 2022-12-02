@@ -1,6 +1,0 @@
----
-Title: KTH Royal Institute of Technology
-logo: "/images/partners/kth.png"
-website: https://www.kth.se/
----
-The KTH Royal Institute of Technology, founded in 1827, is the largest of Sweden’s universities of technology, accounting for one-third of Sweden’s technical research and engineering education capacity at university level. KTH has today 3700 employees and in total about 14,000 students including 1500 PhD students. Organized in 10 schools, KTH covers a broad spectrum of education and research subjects, ranging from natural sciences to all the branches of engineering. KTH is particularly strong in Cyber-Physical Systems as manifested by its research centers on Autonomous systems, Control and Communications, Embedded Systems, and in various application related domains such as transportation, health and manufacturing. KTH is a core partner in the EU-funded EIT ICT Labs (www.eitictlabs.eu), which aims at becoming a pan-European flagship uniting education, research, and innovation for the future information and communication society. KTH is well-connected with the local industry in Stockholm through the KTH Innovative Centre for Embedded Systems (ICES) (www.ices.kth.se) with more than 25 industrial partners. Internationally, KTH is frequently ranked as one of the 10 leading European Technical Universities.
