@@ -1,0 +1,20 @@
+<div class="project-summary clearfix">
+	<div>
+		<div class="col-xs-6 col-md-4 margin-bottom-25">
+			<a href="{{ .Params.website }}" >
+				<img class="img-responsive center-block" src="{{ .Params.logo }}" alt="{{ .Title }} logo" />
+			</a>
+		</div>
+
+		<div class="col-xs-18 col-md-20 project-teaser">
+			<!-- <h2 class="name">{{ .Title }}</h2> -->
+			<!-- <div class="project-teaser-description"> -->
+			<div>
+				{{ .Summary }} 
+				<p><a href="{{ .Params.website }}" >Website</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- End node -->
+	<hr class="hr-border-dotted">
+</div>

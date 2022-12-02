@@ -1,0 +1,37 @@
+<div id="footer" class="panofooter featured-section featured-pano padding-top-60 padding-bottom-40 row"> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-3">
+        <h4>Legal</h4>
+		    <ul>
+		      <li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+		      <li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
+		      <li><a href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li>
+		      <li><a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License</a></li>
+		      <li><a href="https://www.eclipse.org/legal/">Legal Resources </a></li>
+		      <li><a href="https://www.eclipse.org/security/">Eclipse Security </a></li>
+		    </ul>
+      </div>
+      <div class="match-height-item-by-row col-sm-8" align="center">
+        <p id="copyright-text" >Panorama is an <a href="https://itea3.org/">ITEA3</a> Project and supported by <a href="https://www.bmbf.de">BMBF</a> in Germany</p>
+        <hr class="hidden-md hidden-lg hidden-sm">&nbsp;
+        <a href="https://www.bmbf.de/"> <img src="/images/bmbf.svg" class="img-responsive" alt="BMBF" width="200"></a>
+        <hr class="hidden-md hidden-lg hidden-sm">&nbsp;
+        <p>Copyright &copy; PANORAMA project partners. <br />All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Placed at the end of the document so the pages load faster -->
+{{- with .Site.Params.js | default "https://www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/main.min.js"}}
+<script src="{{ . | absURL }}"></script>
+{{ end }}
+{{ if isset .Site.Params "hugo_js" }}
+  {{- with .Site.Params.hugo_js }}
+    <script src="{{ . | absURL }}"></script>
+  {{ end }}
+{{ else }}
+    <script src="{{ "/js/solstice.hugo.js" | absURL }}"></script>
+{{ end }}

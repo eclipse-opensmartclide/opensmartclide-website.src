@@ -1,0 +1,1 @@
+For banners, keep the ratio width = 2 * height

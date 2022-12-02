@@ -1,0 +1,124 @@
+{{ define "main" }}
+
+   <!-- NEWS -->
+  <div id="news" class="padding-bottom-40"> 
+   <div class="container">
+	  <h2 class="text-center header-underline header-underline-center margin-bottom-25">Latest News</h2>
+      <div class="row">
+        {{ range first 4 (where (index .Site.Taxonomies.categories "news").Pages "Section" "news") }}
+           <div class="col-md-6 col-sm-4">
+            <div class="box-image-txte blog">
+              <!-- Image on the top -->
+              <div class="top">
+                <div class="image">
+                  {{ if isset .Params "banner" }}
+                    <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="" >
+                  {{ else }}
+                    <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+            <!-- Content -->
+            <div class="content">
+              <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+              <div class="news-block">
+                <p>{{ .Summary }}</p>
+              </div>
+              <p class="read-more">
+                <a href="{{ .Permalink }}" class="btn btn-info btn-xs">Continue Reading</a>
+              </p>
+            </div>
+           
+	        </div>
+        {{ end }}
+      </div>
+        <!-- <p><a class="btn btn-primary" href="news">All News</a></p> -->
+    </div>
+  </div>
+
+
+<!-- VISION -->
+  <div id="vision" class="featured-section featured-pano padding-top-60 padding-bottom-40 row">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-push-10 col-sm-push-12">
+          <div class="featured-circle featured-circle-right">
+            <img src="images/panorama-logo.svg" class="img-responsive" alt="OpenADX logo" />
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-pull-10 col-sm-pull-12">
+          <h2 class="header-underline margin-top-0">Vision</h2>
+          <p>The PANORAMA project boosts design efficiency for heterogeneous automotive and aerospace systems. Based in open source, it provides an environment for collaboration amongst diverse hardware and software technologies and teams, especially at the early stages of design. It supports efficient design decisions by defining evolving standards, tools and best practices for exchange of non-functional, formal models.</p>
+          <p><a class="btn btn-primary" href="vision">Learn More</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- USE CASES -->
+  <div id="usecases" class="text-center padding-top-40 padding-bottom-40 row"> 
+    <div class="container">
+      <h2 class="header-underline header-underline-center margin-bottom-25">Thematic Focus</h2>
+      <div class="row section-highlights padding-top-40">
+        <div class="match-height-item-by-row col-sm-8">
+          <a href="/usecases/collaboration" >
+            <img height="90" src="images/usecases/collaboration.png" alt="cross-company">
+            <h3>Collaboration</h3>
+          </a>
+          <p>Exchange of system models in cross-company, collaborative development projects</p>
+        </div>
+        <div class="match-height-item-by-row col-sm-8">
+          <a href="/usecases/hardware-assessment" >
+            <img height="90" src="images/usecases/hardware-assessment.png" alt="hw_assessment">
+            <h3>Hardware Assessment</h3>
+          </a>
+          <p>Assessment of different hardware architectures for a given software</p>
+        </div>
+        <div class="match-height-item-by-row col-sm-8">
+          <a href="/usecases/deployment-alternatives" >
+            <img height="90" src="images/usecases/deployment-alternatives.png" alt="alternatives">
+            <h3>Deployment Alternatives</h3>
+          </a>
+          <p>Assessment of deployment alternatives for a given software onto a given hardware architecture</p>
+        </div>
+      </div>
+      <div class="row section-highlights padding-top-40 padding-bottom-40">
+        <div class="match-height-item-by-row col-sm-8">
+          <a href="/usecases/guidance">
+            <img height="90" src="images/usecases/guidance.png" alt="guidance">
+            <h3>Guidance</h3>
+          </a>
+          <p>Informed guidance for optimization of system level design decisions</p>
+        </div>
+        <div class="match-height-item-by-row col-sm-8">
+          <a href="/usecases/traceability" >
+            <img height="90" src="images/usecases/traceability.png" alt="traceability">
+            <h3>Traceability and Safety</h3>
+          </a>
+          <p>Traceability and Safety throughout the development process</p>
+        </div>
+        <div class="match-height-item-by-row col-sm-8">
+          <a href="/usecases/security" >
+            <img height="90" src="images/usecases/security.png" alt="security">
+            <h3>Security</h3>
+          </a>
+          <p>Secure model exchange in collaborative development projects</p>
+          <!--<p> <a href="/org/research">Learn more</a> </p>-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="text-center"> 
+    <h2 class="header-underline header-underline-center margin-bottom-25">Contact</h2>
+    <p>Follow us on <a href="https://twitter.com/PanoramaEng">
+      <img width="32" src="images/Twitter_Social_Icon_Circle_Color.png" alt="twitter">
+    </a>
+  </a> or contact us: info (at) panorama-research.org</p>
+  </div>    
+ 
+   
+
+{{ end }}

@@ -1,0 +1,26 @@
+{
+  "name": "panorama-research-website",
+  "description": "Source code for panorama-research.org",
+  "main": "webpack.min.js",
+  "author": "Gaël Blondelle",
+  "license": "All rights reserved",
+  "version": "0.0.1",
+  "bugs": {
+    "url": "https://gitlab.idial.institute/panorama.project/website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://gitlab.idial.institute/panorama.project/website.git"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "postinstall": "NODE_ENV=production npm run production"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "eclipsefdn-hugo-solstice-theme": "0.0.52"
+  }
+}

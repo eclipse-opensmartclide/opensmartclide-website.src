@@ -1,0 +1,6 @@
+---
+Title: University of Gothenburg
+logo: "/images/partners/univ-gothenburg.png"
+website: https://www.gu.se/english
+---
+The research group at the University of Gothenburg (hereafter ‘GU’) has expertise in model-driven engineering techniques, software processes, and traceability. GU is working closely with industrial partners from a variety of domains in several ITEA-funded projects, including Amalthea4public and ReVAMP. This gives GU excellent insight into current challenges in the industry, the solutions applied there, as well as the requirements for new solutions. GU is also responsible for the open-source traceability tool Eclipse Capra and leads the development and the work towards its industrial adoption. Research results in these areas are continuously being published in the highest-ranking international conferences and journals and used extensively in teaching, including student projects and theses. This expertise will be provided within PANORAMA and adds a unique additional aspect to the project. In addition, GU will work closely with Saab and other project partners to ensure that the developed solutions are seamlessly integrated with the development environments and processes common in this application domain.

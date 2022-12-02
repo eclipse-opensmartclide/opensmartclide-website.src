@@ -1,0 +1,6 @@
+---
+Title: Siemens AG
+logo: "/images/partners/siemens.png"
+website: https://siemens.com
+---
+Siemens AG (Berlin and Munich) is a global technology powerhouse that has stood for engineering excellence, innovation, quality, reliability and internationality for 170 years. The company is active in more than 200 countries, focusing on the areas of electrification, automation and digitalization. One of the world’s largest producers of energy-efficient, resource-saving technologies, Siemens is a leading supplier of efficient power generation and power transmission solutions and a pioneer in infrastructure solutions as well as automation, drive and software solutions for industry. The company is also a leading provider of medical imaging equipment – such as computed tomography and magnetic resonance imaging systems – and a leader in laboratory diagnostics as well as clinical IT. In fiscal 2016, which ended on September 30, 2016, Siemens generated revenue of €79.6 billion and net income of €5.6 billion. At the end of September 2016, the company had around 351,000 employees worldwide.
