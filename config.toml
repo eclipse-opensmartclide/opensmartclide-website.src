@@ -1,4 +1,4 @@
-baseurl = "https://panorama-research.org/"
+baseurl = "https://eclipse.org/opensmartclide"
 # baseurl = "" # Fixes staging build
 # relativeurls = true # Fixes staging build (bad css)
 DefaultContentLanguage = "en"
@@ -8,13 +8,13 @@ metaDataFormat = "yaml"
 GoogleAnalytics = "UA-164550450-2"
 disableKinds = ["taxonomyTerm"]
 themesDir = "node_modules/"
-twitter_url = "https://twitter.com/PanoramaEng"
+twitter_url = "https://twitter.com/smartclide"
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
-  description = "The PANORAMA project boosts design efficiency for heterogeneous automotive and aerospace systems."
+  description = "The SmartCLIDE project will enable organizations on the path to digitalization to accelerate the creation and adoption of Cloud solutions. The innovative smart cloud-native development environment will support creators of cloud services in the discovery, creation, composition, testing, and deployment of full-stack data-centered services and applications in the cloud."
   subtitle = ""
-  seo_title_suffix = " | Panorama Project"
+  seo_title_suffix = " | OpenSmartCLIDE Project"
   keywords = []
   logo = "images/panorama-logo.svg"
   styles = "css/styles.css"
@@ -54,74 +54,23 @@ twitter_url = "https://twitter.com/PanoramaEng"
   hrefTargetBlank = true
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "About"
+    url = "/about/"
     weight = 1
 
 [[menu.main]]
     name = "News"
     url = "/news/"
-    weight = 1
+    weight = 2
 
-[[menu.main]]
-    name = "Vision"
-    url = "/vision/"
-    weight = 3
-
-[[menu.main]]
-  name = "Thematic Focus"
-  url = "/usecases/"
-  weight = 4
-
-  [[menu.main]]
-    name = "Collaboration"
-    url = "/usecases/collaboration"
-    weight = 4
-    parent = "Thematic Focus"
-
-  [[menu.main]]
-    name = "Hardware Assessment"
-    url = "/usecases/hardware-assessment"
-    weight = 4
-    parent = "Thematic Focus"
-
-  [[menu.main]]
-    name = "Deployment Alternatives"
-    url = "/usecases/deployment-alternatives"
-    weight = 4
-    parent = "Thematic Focus"
-
-  [[menu.main]]
-    name = "Guidance"
-    url = "/usecases/guidance"
-    weight = 4
-    parent = "Thematic Focus"
-  
-  [[menu.main]]
-    name = "Traceability and Safety"
-    url = "/usecases/traceability"
-    weight = 4
-    parent = "Thematic Focus"
-
-  [[menu.main]]
-    name = "Security"
-    url = "/usecases/security"
-    weight = 4
-    parent = "Thematic Focus"
-  
 [[menu.main]]
     name = "Resources"
     url = "/resources/"
-    weight = 4
+    weight = 3
 
 [[menu.main]]
-  name = "Related Projects"
-  url = "/relatedprojects/"
-  weight = 7
-
-[[menu.main]]
-    name = "Partners"
-    url = "/partners/"
-    weight = 8
+  name = "PMI"
+  url = "https://projects.eclipse.org/projects/ecd.opensmartclide"
+  weight = 4
 
 
