@@ -43,8 +43,8 @@ twitter_url = "https://twitter.com/smartclide"
   participation_level = "participation_levels"
 
 [Author]
-  name = "Panorama Project"
-  website = "https://panorama-research.org/"
+  name = "OpenSmartCLIDE Project"
+  website = "https://eclipse.org/opensmartclide"
 
 [permalinks]
   news = "/:sections/:year/:month/:day/:slug/"
