@@ -1,0 +1,44 @@
+complete: true
+types:
+
+items:
+    - name: "Introduction"
+      presenter: <a href="speakers/#marco_jahn">Marco Jahn</a>
+      type: session
+      vod: https://youtu.be/aifqpieashk
+      slides: presentations/2021-06-01_Intro.pdf
+    - name: "BaSyx: Making Industry 4.0 easy with Eclipse BaSyx"
+      presenter: <a href="speakers/#frank_schnicke">Frank Schnicke</a>
+      type: session
+      vod: https://youtu.be/aifqpieashk?t=428
+      slides: presentations/2021-06-01_BaSyx.pdf
+      abstract: |
+           <p>Implementing Industry 4.0 and Digital Twins is not an easy task. There are a lot of different concepts 
+           and standards that need to be considered for a successful implementation. For tackling this challenge, 
+           utilizing existing tools and off-the-shelf components is key. Eclipse BaSyx is an open-source middleware 
+           for Industry 4.0 that provides exactly this off-the-shelf components. Additionally, it provides multiple 
+           SDKs that can be leveraged for realizing custom-tailored solutions using state-of-the-art concepts like 
+           the Asset Administration Shell. Thus, BaSyx enables companies to easily implement Industry 4.0.</p>
+           <ul>
+              <li><a href="http://eclipse.org/basyx" target="_blank">Eclipse Basyx website</a></li>
+              <li><a href="http://www.basys40.de/wp-content/uploads/2019/12/Flyer_BaSys42_english.pdf" target="_blank">Factsheet (PDF)</a></li>
+           </ul>
+    - name: "FASTEN: Scaling Static Analysis to Ecosystems"
+      presenter: <a href="speakers/#sebastian_proksch">Sebastian Proksch</a>
+      type: session
+      vod: https://youtu.be/aifqpieashk?t=1749
+      slides: presentations/2021-06-01_FASTEN.pdf
+      abstract: |
+           <p>The FASTEN project is developing an intelligent software package management system that will enhance 
+           robustness and security in software ecosystems. FASTEN addresses the operational and compliance risks 
+           associated with dependencies on networks of external open source software libraries. To solve these issues, 
+           FASTEN introduces a fine-grained tracking of dependencies  on the method-level, on top of existing dependency 
+           management networks. FASTEN support Java, Python and C and integrates with the main package managers of PyPi, Debian, and Maven.</p>
+           <ul>
+              <li><a href="https://www.fasten-project.eu/" target="_blank">FASTEN website</a></li>
+              <li><a href="https://www.fasten-project.eu/download/Collateral/FASTEN%20Flyer/Leaflet_FASTEN_A4_2019_v2_ForPrint.pdf?rev=1.2" target="_blank">Factsheet (PDF)</a></li>
+           </ul>
+    - name: "Wrap up"
+      presenter: <a href="speakers/#cedric_thomas">Cédric Thomas</a>
+      type: session
+      time: 16:55 - 17:00 (CET)

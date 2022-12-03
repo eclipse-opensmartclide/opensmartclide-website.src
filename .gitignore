@@ -1,0 +1,8 @@
+/node_modules/
+/static/images/vendor/
+/static/fonts/vendor/
+/static/images
+/static/js/
+/static/css/
+/static/archives/
+/public/

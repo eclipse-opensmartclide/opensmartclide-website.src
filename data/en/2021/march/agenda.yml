@@ -1,0 +1,46 @@
+complete: true
+types:
+
+items:
+    - name: "Introduction"
+      presenter: <a href="speakers/#cedric_thomas">Cédric Thomas</a>
+      type: session
+      vod: https://youtu.be/-Q5_N5mE3RY
+      slides: presentations/2021-03-04-OpenResearchWebinar.pdf
+
+    - name: "DECODER: a new DevOps toolbox for software code exploration and analysis"
+      presenter: <a href="speakers/#virgile_prevosto">Virgile Prevosto</a>
+      type: session
+      vod: https://www.youtube.com/watch?v=-Q5_N5mE3RY&t=468s
+      slides: presentations/2021-03-04-ORW-DECODER.pdf
+      abstract: |
+           <p>This talk will present the main results of the <a href= "https://www.decoder-project.eu">DECODER H2020 project</a>.
+           The main goal of the project is to offer a unified platform (the PKM, Persistent Knowledge Monitor)
+           for hosting all kinds of documents related to a given software project,
+           including source code, manuals, bug reports. A variety of tools are
+           interacting with the PKM to fill it with additional information and/or
+           take advantage of information provided by other tools. This includes
+           notably the results of static analyses, program proofs, and test case
+           generation on the one hand, and the extraction of more formal
+           specifications from natural language documents using natural language
+           processing techniques. Two years after its start, DECODER is finalizing
+           the first prototypes of its main tools and aims at polishing its API for
+           easier integration with external tools such as IDEs.</p>
+
+    - name: "PDP4E: From engineering methods and tools for privacy compliance to a community of open models"
+      presenter: <a href="speakers/#antonio_kung">Antonio Kung</a>, <a href="speakers/#yod_samuel_martin">Yod Samuel Martín</a>
+      type: session
+      vod: https://www.youtube.com/watch?v=-Q5_N5mE3RY&t=1485s
+      slides: presentations/2021-03-04-ORW-PDP4E.pdf
+      abstract: |
+           <p>The <a href="https://www.pdp4e-project.eu/">PDP4E H2020 project</a> has focused on is defining methods and software tools for
+           privacy engineering based on models, including risk management, privacy requirements 
+           engineering, privacy aware design and privacy assurance. This webinar will show how one 
+           can engineer a complete set of privacy protection models taking into account existing privacy 
+           frameworks. It will describe two examples, connected vehicles and smart grid data exchange. 
+           It will then present an initiative to create an privacy engineering open model community.</p>
+
+    - name: "Wrap up"
+      presenter: <a href="speakers/#philippe_krief">Philippe Krief</a>
+      type: session
+      time: 16:55 - 17:00 (CET)

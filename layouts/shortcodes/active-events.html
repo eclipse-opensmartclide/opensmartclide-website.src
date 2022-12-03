@@ -1,0 +1,24 @@
+{{$currLang:=.Page.Lang }}
+{{$langBase:=index .Site.Data $currLang}}
+{{$events := (index $langBase).conferences.items}}
+<section class="container active-events">
+  <h2>Upcoming Events</h2>
+  <div class="row">
+  {{ range sort $events "end_date" }}
+    {{$t := time .end_date }}
+    {{ if $t.After now }}
+    <div class="col-xs-24 col-sm-8" data-mh="active-events">
+      <div class="event-item flex-column">
+        <h3 class="h2">{{ if .icon }}<i class="{{ .icon }} margin-right-10" aria-hidden="true"></i>{{ end }}{{ .name }}</h3>
+        <p class="flex-grow">{{ .date }}</p>
+        {{ if .url }}
+          <a class="btn btn-primary" href="{{ .url }}" title="{{ i18n "upcoming-events-learn-more-title" }} {{ .name }}">Learn more</a>
+        {{ else }}
+           <p class="flex-grow">Coming soon</p>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  {{ end }}
+  </div>
+</section>
