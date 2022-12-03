@@ -8,22 +8,19 @@ themesDir = "node_modules/"
 enableRobotsTXT = true
 pluralizeListTitles = false
 buildFuture = true # A new event website will always be in the future
+twitter_url = "https://twitter.com/smartclide"
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
-  description = "Through a selection of state-of-the-art project presentations and demonstrations, this new series of webinars introduces software research projects that help shape the future of open source software and the IT industry. Co-organized and presented by OW2 and the Eclipse Foundation, they will focus on how multinational partners leverage open source in European publicly-funded collaborative research and innovation programs."
-  seo_title_suffix = " | Open Research Webinars"
-  keywords = ["research event", "Open Research Webinars"]
-  logo = "images/logo/eclipse-research-horizontal.png"
-  #secondLogo = "images/logo/ow2.png"
-  #secondLogo = "images/logo/ow2-horizontal.png"
-  secondLogo = "images/logo/OW2_Logo_Evolution_FullColors_RGB.png"
-  logo_left_title = "Eclipse"
-  logo_right_title = "OW2"
+  description = "The OpenSmartCLIDE project will enable organizations on the path to digitalization to accelerate the creation and adoption of Cloud solutions. The innovative smart cloud-native development environment will support creators of cloud services in the discovery, creation, composition, testing, and deployment of full-stack data-centered services and applications in the cloud."
+  seo_title_suffix = " | Eclipse OpenSmartCLIDE"
+  keywords = ["service engineering", "cloud services", "service oriented architectures", "soa", "artificial intelligence", "ai", "cloud ide", "cloud", "ide", "h2020", "europe"]
+  logo = "images/logo/OpenSmartClideRGB-Color.png"
+  favicon = "images/logo/OpenSmartClideRGB-Color-256x256.ico"
+  logo_left_title = "Home"
   styles = "css/styles.css"
   header_left_classes = "col-sm-8 col-xs-8 col-md-12"
   header_right_classes = "col-sm-8 col-xs-8 col-md-12"
-# favicon = ""
 # share_img = ""
   gcse = "011805775785170369411:p3ec0igo0qq"
   js = "js/solstice.js?v1"
@@ -34,14 +31,8 @@ buildFuture = true # A new event website will always be in the future
 [taxonomies]
 
 [Author]
-  name = "Philippe Krief"
-  website = "https://opensourceinnovation.eu/"
-  email = "webdev@eclipse-foundation.org"
-#  facebook = "eclipse.org"
-#  twitter = "EclipseFdn"
-#  youtube = "EclipseFdn"
-#  googleplus = "+Eclipse"
-#  linkedin = "company/eclipse-foundation/"
+  name = "OpenSmartCLIDE Project"
+  website = "https://eclipse.org/opensmartclide"
 
 [permalinks]
   news = "/:sections/:year/:month/:day/:slug/"
@@ -50,17 +41,23 @@ buildFuture = true # A new event website will always be in the future
   plainIDAnchors = true
   hrefTargetBlank = true
 
-# [[menu.main]]
-#     name = "Projects"
-#     url = "https://www.eclipse.org/projects/"
-#     weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
 
-# [[menu.main]]
-#     name = "Working Groups"
-#     url = "https://www.eclipse.org/org/workinggroups/"
-#     weight = 2
+[[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 2
 
-# [[menu.main]]
-#     name = "Members"
-#     url = "https://www.eclipse.org/membership/"
-#     weight = 3
+[[menu.main]]
+    name = "Resources"
+    url = "/resources/"
+    weight = 3
+
+[[menu.main]]
+  name = "PMI"
+  url = "https://projects.eclipse.org/projects/ecd.opensmartclide"
+  weight = 4
+
