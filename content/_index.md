@@ -1,7 +1,7 @@
 ---
-title: "Open Research Webinars"
-headline: "Open Research Webinars"
-subtitle: "Open collaboration in European research projects"
+title: "Eclipse OpenSmartCLIDE"
+headline: "Eclipse OpenSmartCLIDE"
+subtitle: "\"The Stairway to Cloud\""
 tagline: ""
 date: 2020-12-15T16:00:00+02:00
 summary: "Join us for the launch of Open Research Webinars on Tuesday, December 15, 2020 at 16:00"
