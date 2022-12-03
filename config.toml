@@ -1,6 +1,6 @@
-baseurl = "https://opensourceinnovation.eu/"
+baseurl = "https://eclipse.org/opensmartclide"
 DefaultContentLanguage = "en"
-title = "Open Research Webinars"
+title = "Eclipse OpenSmartCLIDE"
 theme = "eclipsefdn-hugo-solstice-theme"
 metaDataFormat = "yaml"
 disableKinds = []
