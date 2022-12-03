@@ -36,16 +36,6 @@ Through a selection of state-of-the-art project presentations and demonstrations
 {{< grid/section-container id="about" class="featured-section-row featured-section-row-lighter-bg" >}}
 {{< grid/section-container class="featured-section-row text-center">}}
 <h2>Presented projects<h2>
-<a href="2022/january"><img src="2022/january/images/sat4j.png" width="100" alt="Sat4j"></a>
-<a href="2022/january"><img src="2022/january/images/steady.png" width="100" alt="Steady"></a>
-<a href="2021/september"><img src="2021/september/images/activeeon.png" width="100" alt="ActiveEon"></a>
-<a href="2021/june"><img src="2021/june/images/basyx.png" width="100" alt="BaSyx"></a>
-<a href="2021/september"><img src="2021/september/images/capra.png" width="100" alt="capra"></a>
-<a href="2021/march"><img src="2021/march/images/decoder.png" width="100" alt="DECODER"></a>
-<a href="2021/june"><img src="2021/june/images/fasten.png" width="100" alt="FASTEN"></a>
-<a href="2021/march"><img src="2021/march/images/pdp4e.png" width="100" alt="PDP4E"></a>
-<a href="2020/december"><img src="2020/december/images/reachout.png" width="100" alt="ReachOut!"></a>
-<a href="2020/december"><img src="2020/december/images/smartclide.png" width="100" alt="SmartCLIDE"></a>
 
 {{</ grid/section-container >}}
 {{</ grid/section-container >}}
