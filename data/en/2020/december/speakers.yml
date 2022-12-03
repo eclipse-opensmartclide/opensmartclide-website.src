@@ -1,0 +1,58 @@
+items:
+    
+  - name: "Philippe Krief"
+    anchor: philippe_krief
+    title: "Research Relations Director (Eclipse Foundation)"
+    img: 2020-11-PK-ID.jpg
+    bio: |
+      <p>Philippe Krief is the Research Relations Director of the Eclipse Foundation. He is a project 
+      leader, expert in object-oriented design, embedded development, development tools, and Agile-Scrum 
+      development process. He received his Ph.D. in Computer Science from University Paris 8, France in 1990.<br/>
+      He has a passion for Eclipse since its beginning, early 2000 when he was involved in the early versions 
+      of the Eclipse platform. Before joining the Eclipse Foundation staff, he worked 18 years for IBM as Senior 
+      Architect, CALM evangelist, and R&D Development Manager.<br/>
+      Today, Philippe is supervising 8 European research projects (H2020, ITEA3 & ECSEL), mainly for dissemination, 
+      community building, and open-source best practices tasks.</p>
+    
+  - name: "Cédric Thomas"
+    anchor: cedric_thomas
+    title: "CEO (OW2)"
+    img: cedric-thomas.320x320px.jpg
+    bio: |
+      <p>Cedric Thomas is OW2 CEO. An IT industry veteran with twenty-five years of experience in strategic and 
+      marketing consulting for IT vendors and systems integrators, Cedric has masterminded the launch of the OW2 
+      Consortium. Previously, as both an investor and a consultant with FronTier Associates, the consulting company 
+      he founded in 1997, he actively took part in three IPOs, contributed to the launch of several technology start-ups, 
+      helped establish a start-up incubator in Paris and set up technology firms in Boston and San Francisco. Before that, 
+      he was VP and Research Director at PAC, an independent provider of consultancy and marketing studies for the IT 
+      industry where he established successful research programs in Open Systems, IT spending and Outsourcing. 
+      Cédric studied for his PhD in Economics at the Sorbonne and holds a Master’s degree in Computer Science from the 
+      University of Paris. He teaches business strategy in several master programs.</p>
+    
+  - name: "Sebastian Scholze"
+    anchor: sebastian_scholze
+    title: "Senior Researcher (ATB)"
+    img: Sebastian_business.jpg
+    bio: |
+      <p>Sebastian Scholze studied Computer Science at the University of Bremen. Since 2000, he is working as 
+      scientific staff member at ATB. He is Involved in diverse CEC funded RTD projects since the 5th FP. 
+      Furthermore, he has long term project experience in several fields (e.g. Automotive, Manufacturing and 
+      Logistics). He has excellent IT skills in object oriented programming languages, development methodologies 
+      as well as in integration of complex software systems. Active in researching on context aware approaches 
+      and systems, object-based software models and methodologies for optimising the software development process 
+      for distributed, SOA and interoperable systems and web-based applications. He is working as project (e.g. 
+      Self-Learning, AsKoWi, EngineeringWiki) and local project manager (e.g. K-Net, EPES) in several EU and direct 
+      research projects. He was acting as coordinator of the FP7 Self-Learning project, H2020 U-Qasar project as 
+      well as technical director of the H2020 project SAFIRE. He has more than 40 publications on technical and 
+      research topics. He is currently acting as Coordinator of the H2020 projects ENCORE and SmartCLIDE.</p>
+
+  - name: "Alexandre Lefebvre"
+    anchor: alexandre_lefebvre
+    title: "Project Manager (UShareSoft)"
+    img: Alexandre_Lefebvre.jpg
+    bio: |
+      <p>Alexandre Lefebvre is project manager at UShareSoft. He has been involved
+      in professional services and development of UShareSoft software products since 
+      2013. Prior to joining UShareSoft, he had several management and research positions 
+      at Orange Labs in distributed middleware, and has been involved in several collaborative 
+      research projects. He represents UShareSoft in the ReachOut project.</p>

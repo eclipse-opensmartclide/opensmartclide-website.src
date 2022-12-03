@@ -1,0 +1,27 @@
+{
+  "name": "eclipsefdn-hugo-events",
+  "description": "Source code for opensourceinnovation.eu",
+  "main": "webpack.min.js",
+  "author": "Christopher Guindon",
+  "license": "EPL-2.0",
+  "version": "0.0.0",
+  "bugs": {
+    "url": "https://github.com/eclipsefdn/opensourceinnovation.eu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eclipsefdn/opensourceinnovation.eu.git"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "build_netlify": "NODE_ENV=production npm run production",
+    "postinstall": "NODE_ENV=production npm run production"
+  },
+  "dependencies": {
+    "eclipsefdn-hugo-solstice-theme": "0.0.132"
+  },
+  "browserslist": "last 5 version, > 0.2%, not dead, IE 11"
+}

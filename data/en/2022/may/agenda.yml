@@ -1,0 +1,24 @@
+complete: false
+types:
+
+items:
+    - name: "Introduction"
+      presenter: <a href="speakers/#marco_jahn">Marco Jahn</a> and <a href="speakers/#cedric_thomas">Cedric Thomas</a>
+      type: session
+      time: 16:00 - 16:15 (CET)
+    - name: "Project #1"
+      presenter: To be Defined
+      type: session
+      time: 16:15 - 16:35 (CET)
+      abstract: |
+           <p></p>
+    - name: "Project #1"
+      presenter: To be Defined
+      type: session
+      time: 16:35 - 16:55 (CET)
+      abstract: |
+          <p></p>
+    - name: "Wrap up"
+      presenter: <a href="speakers/#marco_jahn">Marco Jahn</a>
+      type: session
+      time: 16:55 - 17:00 (CET)

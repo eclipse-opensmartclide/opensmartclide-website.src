@@ -1,0 +1,127 @@
+/* @CHARSET "UTF-8"; */
+/*!
+ * Copyright (c) 2019 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Christopher Guindon <chris.guindon@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+@import '~eclipsefdn-solstice-assets/less/quicksilver/styles.less';
+@import '_variables.less';
+
+// Custom Navbar
+#header-right, .header-right {
+  float: right;
+}
+
+#header-right, #header-left {
+  display: inline-block;
+}
+
+// Event templates (Default)
+.featured-section-row {
+  font-size:1.1em;
+  h2 {
+    text-align:center;
+  }
+  h1, h2, h3, h4 {
+   font-weight: 500;
+  }
+}
+
+.header-wrapper,
+.header-default-event, 
+.featured-section-row-dark-bg {
+  background-image: url('images/default/header-blue.jpg');
+  background-size: cover;
+  background-color: @brand-secondary;
+}
+
+.header-default-event {
+  .list-inline {
+    margin: 10px 0 10px 0;
+
+    .btn-primary {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}
+
+.featured-section-container-notes {
+  font-size:12px;
+  p {
+    margin-bottom:5px;
+  }
+  ul {
+    .list-inline;
+  }
+  p, li {
+    font-size:12px;
+  }
+  a {
+    font-weight:bold;
+  }
+}
+
+.featured-jumbotron {
+  h1::after {
+    display: none;
+  }
+
+  p, h2 {
+    font-weight:400;
+  }
+}
+
+.featured-section-row-dark-bg {
+  .featured-section-container-notes{
+    p, li {
+     color:#bdbdbd;
+    }
+    a {
+      color: @white;
+      &:hover {
+        color:@white;
+      }
+    }
+  }
+}
+
+// Upcoming events
+section.active-events {
+  margin-bottom: 50px;
+  .row {
+    .event-item {
+      border: 1px solid #cecece;
+      padding: 15px 25px;
+      text-align: center;
+      background-color: @brand-secondary;
+      color: @white;
+      height: 100%;
+
+      h3 {
+        color: @white;
+        font-size: 25px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.flex-column {
+  .btn {
+    width: fit-content;
+    margin: auto;
+  }
+}
+
+footer#solstice-footer {
+  border-top: solid 1px #ccc;
+}
