@@ -1,5 +1,5 @@
-baseurl = "https://eclipse.org/opensmartclide"
-# baseurl = "" # Fixes staging build
+#baseurl = "https://eclipse.org/opensmartclide"
+baseurl = "" # Fixes staging build
 # relativeurls = true # Fixes staging build (bad css)
 DefaultContentLanguage = "en"
 title = "" 
