@@ -45,7 +45,7 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 
 ## Authors
 
-* **Philippe Krief (Eclipse Foundation)**
+* Philippe Krief (Eclipse Foundation)
 
 
 ## Trademarks
