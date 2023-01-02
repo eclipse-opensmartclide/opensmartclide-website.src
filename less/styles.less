@@ -35,12 +35,25 @@
   }
 }
 
+.featured-section-row-logo-bg {
+  background-image: @featured-section-row-logo-bg-img;
+  background-size: cover;
+  background-color: @white;
+}
+
 .header-wrapper,
 .header-default-event, 
 .featured-section-row-dark-bg {
-  background-image: url('images/default/bg-header.jpg');
+  background-image: @featured-section-row-dark-bg-img;
   background-size: cover;
   background-color: @brand-secondary;
+}
+
+.header-wrapper,
+.header-default-event, 
+.featured-section-row-light-bg {
+  background-size: cover;
+  background-color: @featured-section-row-light-bg;
 }
 
 .header-default-event {
