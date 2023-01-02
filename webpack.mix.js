@@ -14,13 +14,11 @@
 require('./node_modules/eclipsefdn-solstice-assets/webpack-solstice-assets.mix.js');
 let mix = require('laravel-mix');
 mix.EclipseFdnSolsticeAssets();
-const { env } = require('minimist')(process.argv.slice(2));
 
 mix.setPublicPath('static');
 mix.setResourceRoot('../');
 mix.less('./less/styles.less', 'static/css/styles.css');
 
-mix.js(
-  ['js/main.js'],
-  './static/js/solstice.js'
-);
+
+mix.js('js/main.js', './static/js/solstice.js');
+//mix.js('js/App.js', './static/js/App.js').react();
