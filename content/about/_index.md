@@ -31,8 +31,15 @@ OpenSmartCLIDE allows SMEs and Public Administration to boost the adoption of Cl
 
 ## Benefits of SmartCLIDE for the targeted users ##
 The aim of SmartCLIDE is to provide a tool to empower end-users with limited technical knowledge in the specification, development, testing, deployment, and operation of data-intensive applications in the cloud. SmartCLIDE introduces several benefits for the different stakeholders within the service creation lifecycle:
-{{< image-centered src="benefits.png" alt="Benefits" >}}
+{{</ grid/section-container >}}
 
+{{< grid/section-container isMarkdown="false">}}
+  {{< grid/div class="text-center margin-bottom-30 margin-top-30" isMarkdown="false" >}}
+      <img class="text-center" src="benefits.png" alt="Benefits">
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+{{< grid/section-container isMarkdown="true">}}
 * **It lowers the entry-level to programming activities to non-technical staff:** OpenSmartCLIDE will allow end-users to easily prototype features (that can be enhanced later on by developers). It also provides a powerful training tool for novel developers to understand the underlying mechanisms of data-intensive applications
 * **Increase the reusability of services:** OpenSmartCLIDE will allow reusing existing and ad-hoc created microservices, data, control structures, or operations abstractions.</li>
 * **Improvement of the transparency, readability, and comprehensibility of software:** OpenSmartCLIDE implements several features that will improve the readability and comprehensibility of software:
