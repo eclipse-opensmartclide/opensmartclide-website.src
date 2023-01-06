@@ -1,12 +1,20 @@
 ---
 title: "SmartCLIDE goes Open-Source!"
-headline: "News"
+headline: "Eclipse OpenSmartCLIDE/News"
+subtitle: "SmartCLIDE goes Open-Source!"
+tagline: ""
 date: 2022-10-18
 categories: ["news"]
-banner: "images/2022-10-18-smartclide-goes-os.jpg"
+banner: "images/2022-10-18-smartclide-goes-os.png"
+hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
+container: "container featured-section-row featured-section-page-logo-bg featured-section-large-text"
+show_featured_footer: false
+keywords: ["cloud computing", "Horizon 2020", "Theia", "SaaS", "IaaS"]
+links: [[href: "https://github.com/eclipse-opensmartclide", text: "Developer Resources"], [href: "/resources/", text: "Documentation"]]
 ---
+
 
 We are pleased to announce that our proposal to submit our code as an open-source platform extending Eclipse Theia has been accepted by the Eclipse community. Our code will be hosted under the name:
 
