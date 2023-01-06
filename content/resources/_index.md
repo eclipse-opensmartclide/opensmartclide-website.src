@@ -17,7 +17,7 @@ links: []
 {{< grid/section-container isMarkdown="true">}}
 ## Developer Resources ##
 
-* [GitHub repositories](https://github.com/eclipse-opensmartclide
+* [GitHub repositories](https://github.com/eclipse-opensmartclide)
 
 ## Documentation ##
 
