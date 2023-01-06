@@ -1,0 +1,30 @@
+<!-- 
+  Copyright (c) 2019 Eclipse Foundation, Inc.
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Eric Poirier <eric.poirier@eclipse-foundation.org>
+
+  SPDX-License-Identifier: EPL-2.0
+-->
+<div class="news-list">
+	<div class="row">
+		<div class="border-top padding-top-10">
+			<div class="col-sm-5-eclipse margin-top-10">
+				<a href="{{- with .Params.redirect_url | default .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link{{ if eq .Section "news" }} match-height-item{{ end }}">
+					<img src="{{ .Params.banner }}" width= "100%"/>
+				</a>
+			</div>
+			<div class="col-sm-19">
+				<a href="{{- with .Params.redirect_url | default .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link{{ if eq .Section "news" }} match-height-item{{ end }}">
+					<p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
+					<h4 class="media-heading">{{ .Title | safeHTML }}</h4>
+					<p class="media-text">{{ .Summary }}</p>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
