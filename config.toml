@@ -14,7 +14,7 @@ twitter_url = "https://twitter.com/smartclide"
   description = "The OpenSmartCLIDE project will enable organizations on the path to digitalization to accelerate the creation and adoption of Cloud solutions. The innovative smart cloud-native development environment will support creators of cloud services in the discovery, creation, composition, testing, and deployment of full-stack data-centered services and applications in the cloud."
   seo_title_suffix = " | Eclipse OpenSmartCLIDE"
   keywords = ["service engineering", "cloud services", "service oriented architectures", "soa", "artificial intelligence", "ai", "cloud ide", "cloud", "ide", "h2020", "europe"]
-  logo = "images/logo/OpenSmartClideRGB-CloudOnly-Color700x400.png"
+  logo = "images/logo/OpenSmartClideRGB-Color_200px3.png"
   favicon = "images/logo/OpenSmartClideRGB-Color-256x256.ico"
   logo_left_title = "Home"
   styles = "css/styles.css"
@@ -59,4 +59,10 @@ twitter_url = "https://twitter.com/smartclide"
   name = "PMI"
   url = "https://projects.eclipse.org/projects/ecd.opensmartclide"
   weight = 4
+  
+# To avoid <!-- raw HTML omitted --> with a shortcodes
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
