@@ -1,10 +1,10 @@
 baseurl = "https://eclipse.org/opensmartclide"
 DefaultContentLanguage = "en"
 title = "Eclipse OpenSmartCLIDE"
-theme = "eclipsefdn-hugo-solstice-theme"
+theme = "hugo-solstice-theme"
 metaDataFormat = "yaml"
 disableKinds = []
-themesDir = "node_modules/"
+#themesDir = "node_modules/"
 enableRobotsTXT = true
 pluralizeListTitles = false
 twitter_url = "https://twitter.com/smartclide"
