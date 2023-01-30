@@ -1,0 +1,108 @@
+/* @CHARSET "UTF-8"; */
+/*!
+ * Copyright (c) 2019 Eclipse Foundation, Inc.
+ *
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ *
+ * Contributors:
+ *   Christopher Guindon <chris.guindon@eclipse-foundation.org>
+ *
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+@import '~eclipsefdn-solstice-assets/less/quicksilver/styles.less';
+@import '_variables.less';
+
+// Custom Navbar
+#header-right, .header-right {
+  float: right;
+}
+
+#header-right, #header-left {
+  display: inline-block;
+}
+
+// Event templates (Default)
+.featured-section-row {
+  font-size:1.1em;
+  h2 {
+    text-align:center;
+  }
+  h1, h2, h3, h4 {
+   font-weight: 500;
+  }
+}
+
+.header-wrapper {
+  background-image: url('images/default/bg-header.jpg');
+  background-size: cover;
+  background-color: @brand-secondary;
+}
+.featured-section-page-logo-bg {
+  background-image: @featured-section-row-logo-bg-img;
+  background-color: @white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  //
+  background-size: contain;
+}
+.featured-section-large-text {
+    font-size:large;
+}
+
+.featured-section-container-notes {
+  font-size:12px;
+  p {
+    margin-bottom:5px;
+  }
+  ul {
+    .list-inline;
+  }
+  p, li {
+    font-size:12px;
+  }
+  a {
+    font-weight:bold;
+  }
+}
+
+.featured-jumbotron {
+  h1::after {
+    display: none;
+  }
+
+  p, h2 {
+    font-weight:400;
+  }
+}
+
+.featured-section-row-dark-bg {
+  .featured-section-container-notes{
+    p, li {
+     color:#bdbdbd;
+    }
+    a {
+      color: @white;
+      &:hover {
+        color:@white;
+      }
+    }
+  }
+}
+
+.flex-column {
+  .btn {
+    width: fit-content;
+    margin: auto;
+  }
+}
+
+footer#solstice-footer {
+  border-top: solid 1px #ccc;
+}
+
+.border-top {
+  border-top: solid 1px #ccc;
+}

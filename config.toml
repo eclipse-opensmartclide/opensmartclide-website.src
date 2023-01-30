@@ -1,0 +1,68 @@
+baseurl = "https://eclipse.org/opensmartclide"
+DefaultContentLanguage = "en"
+title = "Eclipse OpenSmartCLIDE"
+theme = "hugo-solstice-theme"
+metaDataFormat = "yaml"
+disableKinds = []
+#themesDir = "node_modules/"
+enableRobotsTXT = true
+pluralizeListTitles = false
+twitter_url = "https://twitter.com/smartclide"
+
+[Params]
+  google_tag_manager = "GTM-5WLCZXC"
+  description = "The OpenSmartCLIDE project will enable organizations on the path to digitalization to accelerate the creation and adoption of Cloud solutions. The innovative smart cloud-native development environment will support creators of cloud services in the discovery, creation, composition, testing, and deployment of full-stack data-centered services and applications in the cloud."
+  seo_title_suffix = " | Eclipse OpenSmartCLIDE"
+  keywords = ["service engineering", "cloud services", "service oriented architectures", "soa", "artificial intelligence", "ai", "cloud ide", "cloud", "ide", "h2020", "europe"]
+  logo = "images/logo/OpenSmartClideRGB-Color_200px3.png"
+  favicon = "images/logo/OpenSmartClideRGB-Color-256x256.ico"
+  logo_left_title = "Home"
+  styles = "css/styles.css"
+#  header_left_classes = "col-sm-8 col-xs-8 col-md-12"
+#  header_right_classes = "col-sm-8 col-xs-8 col-md-12"
+# share_img = ""
+  gcse = "011805775785170369411:p3ec0igo0qq"
+  js = "js/solstice.js?v1"
+  featured_content_publish_target = "eclipse_org"
+  logo_left_width = 250
+  logo_right_width = 150
+
+[taxonomies]
+
+[Author]
+  name = "OpenSmartCLIDE Project"
+  website = "https://eclipse.org/opensmartclide"
+
+[permalinks]
+  news = "/:sections/:year/:month/:day/:slug/"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+[[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 2
+
+[[menu.main]]
+    name = "Resources"
+    url = "/resources/"
+    weight = 3
+
+[[menu.main]]
+  name = "PMI"
+  url = "https://projects.eclipse.org/projects/ecd.opensmartclide"
+  weight = 4
+  
+# To avoid <!-- raw HTML omitted --> with a shortcodes
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
